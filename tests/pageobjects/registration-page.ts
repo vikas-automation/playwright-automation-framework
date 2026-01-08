@@ -1,6 +1,6 @@
 import { Page, Locator } from "@playwright/test";
 import { MyAccountPage } from "./my-account-page";
-
+//
 export class RegistrationPage {
   readonly pageTitle: Locator;
   readonly firstNameField: Locator;
