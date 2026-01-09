@@ -1,6 +1,6 @@
 import { Page, Locator } from "@playwright/test";
 import { MyAccountPage } from "./my-account-page";
-
+//
 export class RegistrationPage {
   readonly pageTitle: Locator;
   readonly firstNameField: Locator;
@@ -12,7 +12,7 @@ export class RegistrationPage {
   readonly agreePolicy: Locator;
   readonly continueBtn: Locator;
   readonly page: Page;
-
+//  
   constructor(page: Page) {
     this.page = page;
     this.pageTitle = page.getByText("Register Account");
