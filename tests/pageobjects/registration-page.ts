@@ -12,7 +12,7 @@ export class RegistrationPage {
   readonly agreePolicy: Locator;
   readonly continueBtn: Locator;
   readonly page: Page;
-
+//  
   constructor(page: Page) {
     this.page = page;
     this.pageTitle = page.getByText("Register Account");
